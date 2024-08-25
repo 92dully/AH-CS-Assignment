@@ -1,0 +1,48 @@
+
+    .welcome{
+        padding:50;
+      }
+      
+      .ltp{ 
+					padding:30;
+				}
+      
+      @media screen and (max-width:500px){
+	   .welcome{ 
+					font-size:40px;
+				}
+        
+        .ltp{ 
+					font-size:29px;
+				}
+        
+        .loginHere{ 
+					font-size:25px;
+				}
+        
+			}
+			
+        
+      /* 
+      FONT OPTIONS
+      Consolas,Monaco,Lucida Console,Liberation Mono,Courier New, monospace; 
+      */
+			h1{
+				text-align: center;
+				font-size: 100px;
+				font-family: "Monaco", monospace;
+				font: bold;
+			}
+      
+      h2{
+        text-align: center;
+				font-size: 45px;
+        font-family: "Courier New", monospace;
+      }
+      
+      .loginHere{
+        text-align: center;
+        font-size: 30px;
+      }
+			
+			
