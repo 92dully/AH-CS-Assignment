@@ -54,6 +54,16 @@ if ($_SESSION["login"] == true) {
    <li> <a href='login.php'>Log In</a> </li>
     </ul>";
 }
+// temp fix
+// if (isset($_SESSION["login"]) && $_SESSION["login"] == true) {
+//     echo "<ul class='dropdown'>
+//             <li>Log Out</li>
+//           </ul>";
+// } else {
+//     echo "<ul class='dropdown'>
+//             <li><a href='login.php'>Log In</a></li>
+//           </ul>";
+// }
 ?>
           </li>
  
